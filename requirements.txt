@@ -1,0 +1,18 @@
+# ── Version-pinned for reproducible Streamlit Cloud deployment ─────────────────
+# Without pins, Streamlit Cloud may install incompatible versions
+# and silently break model loading (especially scikit-learn pickle compatibility)
+
+streamlit==1.35.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+joblib==1.4.2
+matplotlib==3.9.0
+
+# Optional but recommended for EDA / notebook phase
+wordcloud==1.9.3
+seaborn==0.13.2
+
+# Jupyter notebook support
+notebook>=7.0
+ipykernel>=6.0
