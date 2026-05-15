@@ -35,7 +35,7 @@ Sentiment Analysis/
 │   ├── predict.py                # Prediction helper (Phase 11)
 │   └── eda.py                    # EDA + per-class word frequency
 ├── notebooks/                    # EDA output images saved here
-├── app.py                        # Streamlit app
+├── streamlit_app.py              # Streamlit app
 ├── requirements.txt              # Pinned versions
 └── README.md
 ```
@@ -56,7 +56,7 @@ jupyter notebook sentiment_analysis.ipynb # Run all cells
 python src/train_model.py
 
 # 4. Launch the app
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 ## Key Features & Design Decisions
@@ -74,5 +74,5 @@ streamlit run app.py
 1. Push to GitHub
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Connect your repository
-4. Set main file path: `app.py`
+4. Set main file path: `streamlit_app.py`
 5. Deploy
